@@ -1,4 +1,4 @@
-# teste-tecnico PokedeX
+# teste-tecnico Mars Rover
 
 Projeto Desenvolvido para teste técnico.
 
