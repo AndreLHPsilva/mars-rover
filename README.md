@@ -69,9 +69,6 @@ OBS: Caso ocorra algum erro **Erro inesperado**, aguarde mais um pouco até o co
       "reflect-metadata": "^0.2.2",
       "ts-node-dev": "^2.0.0",
       "zod": "^3.23.5"
-     
-### Diagrama de Entidade-Relacionamento
-![ERD](https://github.com/AndreLHPsilva/test-pokedex/assets/112219645/d952c4c6-3cf7-4785-94f0-72ad2bf687c3)
 
 ### Imagens do Projeto
 ![Inicial](https://github.com/AndreLHPsilva/mars-rover/assets/112219645/8b2ddedf-f8e9-4b27-a0b4-a425a9806274)
