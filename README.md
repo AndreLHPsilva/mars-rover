@@ -18,28 +18,10 @@ Caso tenha o VSCODE em sua maquina:
    ``` 
      code .
    ```
-Execute os seguintes comandos para configurar o backend.
--  Backend:
-   Entre na pasta do backend.
-      ```
-      cd backend
-      ```
-Execute os seguintes comandos para configurar o frontend.
--  Frontend:
-  Abra uma nova janela do terminal ou vá para o diretório raiz do projeto se você saiu da pasta "backend".
-
-    Entre na pasta do frontend:
-      ```
-       cd ../frontend
-      ```
--  Volte para raiz do projeto:
-    ```
-     cd ..
-    ```
-- E depois:
-    ```
-     docker-compose up --build -d
-    ```
+Execute o seguinte comando para iniciar o projeto.
+ ```
+  docker-compose up --build -d
+ ```
 - Aguarde alguns instantes e acesse a URL:
     http://localhost:3000/
 
