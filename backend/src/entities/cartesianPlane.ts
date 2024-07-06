@@ -36,8 +36,6 @@ export class CartesianPlane {
     const maximumPositionXAxis = this.getSizeX() - 1;
     const maximumPositionYAxis = this.getSizeY() - 1;
 
-    console.log(position)
-
     return (
       position.x >= 0 &&
       position.x <= maximumPositionXAxis &&

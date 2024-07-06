@@ -54,17 +54,5 @@ export default class RoverRepository implements IRoverRepoContract {
     rover.setUpdatedAt(format(roverCreated.updated_at, "yyyy-MM-dd"));
 
     return rover;
-
-    // const positions = rover.getPositions();
-
-    // await Promise.all(
-    //   positions.map(async (position) => {
-    //     await this.repository.create({
-    //       data: {
-    //         ...roverData,
-    //       },
-    //     });
-    //   })
-    // );
   }
 }

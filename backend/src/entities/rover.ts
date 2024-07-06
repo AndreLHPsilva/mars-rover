@@ -63,7 +63,7 @@ export class Rover {
   formatInitialPosition(initialPosition: string): IPosition {
     const splitted = initialPosition.split("");
 
-    if (splitted.length > 3 || splitted.length == 0) {
+    if (!(splitted.length === 3)) {
       throw new ApiError("Posição inicial incorreta, deve ter 3 caracteres.");
     }
 

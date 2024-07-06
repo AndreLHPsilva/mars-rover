@@ -1,9 +1,8 @@
 import { IPosition } from "@entities/position";
-import { prisma } from "@repositories/implementations/prisma";
-import { CartesianPlane } from "entities/cartesianPlane";
-import { Rover } from "entities/rover";
-import { IPositionRepoContract } from "repositories/position.contract";
-import { IRoverRepoContract } from "repositories/rover.contract";
+import { CartesianPlane } from "@entities/cartesianPlane";
+import { Rover } from "@entities/rover";
+import { IPositionRepoContract } from "@repositories/position.contract";
+import { IRoverRepoContract } from "@repositories/rover.contract";
 
 interface IInputDTO {
   initialPosition: string;
@@ -81,10 +80,6 @@ export default class SendRoverUseCase {
         rover_id: roverCreated.getId()!,
       }),
     ]);
-
-    const teste = await prisma.rover.findMany({});
-    const teste2 = await prisma.position.findMany({});
-    console.log(teste, teste2);
 
     return dataReturn;
   }

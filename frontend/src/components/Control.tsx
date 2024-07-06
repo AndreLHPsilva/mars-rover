@@ -143,6 +143,7 @@ function Control() {
               setValue("instruction", `${getValues("instruction")}L`)
             }
             type="button"
+            title="Clique para instruir a girar para esquerda"
           >
             Girar Esquerda
           </button>
@@ -151,6 +152,7 @@ function Control() {
             onClick={() =>
               setValue("instruction", `${getValues("instruction")}M`)
             }
+            title="Clique para instruir a mover para frente"
             type="button"
           >
             Mover
@@ -160,6 +162,7 @@ function Control() {
             onClick={() =>
               setValue("instruction", `${getValues("instruction")}R`)
             }
+            title="Clique para instruir a girar para direita"
             type="button"
           >
             Girar Direita
@@ -172,6 +175,7 @@ function Control() {
                 clearInstruction(getValues("instruction"))
               )
             }
+            title="Clique para apagar a última instrução"
             type="button"
           >
             <Eraser size={14} />

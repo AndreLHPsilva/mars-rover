@@ -4,10 +4,10 @@ import "express-async-errors";
 import { routes } from "./routes";
 
 import cors from "cors";
-import { IReturnApi } from "helpers/returnApi";
-import { ExpressMiddleware } from "middlewares/ExpressMiddleware";
+import { IReturnApi } from "@helpers/returnApi";
+import { ExpressMiddleware } from "@middlewares/ExpressMiddleware";
 
-const app = express();
+export const app = express();
 
 app.use((req: Request, res: Response, next: NextFunction) => {
   res.returnApi = (data: IReturnApi): Response => {

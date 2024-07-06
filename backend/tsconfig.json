@@ -20,6 +20,7 @@
       "@controllers/*": ["./controllers/*"],
       "@entities/*": ["./entities/*"],
       "@repositories/*": ["./repositories/*"],
+      "@factory/*": ["./factory/*"],
     },
     "typeRoots": ["./node_modules/@types", "./src/@types"],
     "outDir": "./dist",

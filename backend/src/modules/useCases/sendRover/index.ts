@@ -1,9 +1,8 @@
-import RoverRepository from "@repositories/implementations/prisma/rover.repo";
+import { CreateRepositories } from "@factory/createRepositories.factory";
 import SendRoverUseCase from "./sendRover";
-import PositionRepository from "@repositories/implementations/prisma/position.repo";
 
-const roverRepository = new RoverRepository();
-const positionRepository = new PositionRepository();
+const { roverRepository, positionRepository } = CreateRepositories.execute();
+
 export const sendRoverUseCase = new SendRoverUseCase(
   roverRepository,
   positionRepository
