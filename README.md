@@ -54,21 +54,27 @@ OBS: Caso ocorra algum erro **Erro inesperado**, aguarde mais um pouco até o co
       "zod": "^3.23.5"
 ### Depêndencias do Backend
     Desenvolvimento: 
-      "@types/cors": "^2.8.17",
-      "@types/express": "^4.17.21",
-      "@types/node": "^20.12.7",
-      "prisma": "^5.13.0",
-      "tsconfig-paths": "^4.2.0",
-      "typescript": "^5.4.5"
+       "@types/cors": "^2.8.17",
+       "@types/express": "^4.17.21",
+       "@types/jest": "^29.5.12",
+       "@types/node": "^20.12.7",
+       "@types/supertest": "^6.0.2",
+       "cross-env": "^7.0.3",
+       "jest": "^29.7.0",
+       "prisma": "^5.13.0",
+       "supertest": "^7.0.0",
+       "ts-jest": "^29.1.5",
+       "tsconfig-paths": "^4.2.0",
+       "typescript": "^5.4.5"
     Produção
-      "@prisma/client": "^5.13.0",
-      "cors": "^2.8.5",
-      "date-fns": "^3.6.0",
-      "express": "^4.19.2",
-      "express-async-errors": "^3.1.1",
-      "reflect-metadata": "^0.2.2",
-      "ts-node-dev": "^2.0.0",
-      "zod": "^3.23.5"
+       "@prisma/client": "^5.13.0",
+       "cors": "^2.8.5",
+       "date-fns": "^3.6.0",
+       "express": "^4.19.2",
+       "express-async-errors": "^3.1.1",
+       "reflect-metadata": "^0.2.2",
+       "ts-node-dev": "^2.0.0",
+       "zod": "^3.23.5"
 
 ### Imagens do Projeto
 ![Inicial](https://github.com/AndreLHPsilva/mars-rover/assets/112219645/8b2ddedf-f8e9-4b27-a0b4-a425a9806274)
